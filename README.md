@@ -1,5 +1,5 @@
 # SETTPAY
-Setheum's easy to use web3 wallet
+Setheum's easy to use multi-chain web3 wallet
 
 ## Getting Started
 
