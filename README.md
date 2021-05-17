@@ -1,2 +1,2 @@
-# settpay
-SettPay Applicatioin. Easy web3 payments. Just Unique!
+# SETTPAY
+Setheum's easy to use web3 wallet
