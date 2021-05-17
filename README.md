@@ -1,9 +1,13 @@
 # SETTPAY
-Setheum's easy to use web3 wallet
+
+Setheum's easy to use web3 wallet - [setheum.xyz](https://setheum.xyz)
+SettPay is the main app for Setheum's multi-chain & cross-chain asset management. 
+Stake, take part in network governance, multi-chain transactions all in one. 
+Non-custodial, meaning you hold your private keys not settpay, privacy first!
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
