@@ -1,18 +1,18 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:app/common/consts.dart';
-import 'package:app/service/walletApi.dart';
-import 'package:app/utils/i18n/index.dart';
+import 'package:settpay/common/consts.dart';
+import 'package:settpay/service/walletApi.dart';
+import 'package:settpay/utils/i18n/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:settpay_sdk/api/types/balanceData.dart';
+import 'package:settpay_sdk/settpay_api/types/balanceData.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/utils/format.dart';
 import 'package:settpay_ui/utils/i18n.dart';
 import 'package:settpay_ui/utils/index.dart';
-import 'package:update_app/update_app.dart';
+import 'package:update_settpay/update_app.dart';
 
 class AppUI {
   static Future<void> alertWASM(

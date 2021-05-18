@@ -9,9 +9,9 @@ import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:sp_polkadot/utils/i18n/index.dart';
 // ignore: import_of_legacy_library_into_null_safe
-import 'package:settpay_sdk/api/apiKeyring.dart';
+import 'package:settpay_sdk/settpay_api/apiKeyring.dart';
 // ignore: import_of_legacy_library_into_null_safe
-import 'package:settpay_sdk/api/types/recoveryInfo.dart';
+import 'package:settpay_sdk/settpay_api/types/recoveryInfo.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:settpay_sdk/storage/types/keyPairData.dart';
 // ignore: import_of_legacy_library_into_null_safe
