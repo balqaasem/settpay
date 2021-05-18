@@ -89,3 +89,99 @@ To get started
  3. In AndroidStudio, run `lib/main.dart` with arguments `--flavor=prod` on Android Devices,
  or just run `lib/main.dart` with no arguments on IOS.
  
+## Contribute
+
+This app was built with several repos, developers of other substrate based chain
+may create their own plugin and put it into the settpay app:
+
+```
+__ SettPay/settpay
+    |
+    |__ SettPay/settpay_ui
+    |    |__ SettPay/settpay_sdk
+    |
+    |__ sp_polkadot
+    |    |__ SettPay/settpay_sdk
+    |    |__ SettPay/settpay_ui
+    |
+    |__ <other plugins (sps)>
+    |__ <...>
+```
+
+### 1. SettPay/settpay.js
+This is a `polkadot-js/api` wrapper which will be built into a single `main.js` file
+to run in a hidden webView inside the App. So the App will connect to a substrate node
+with `polkadot-js`.
+
+And we wrapped `polkadot-js/keyring` in it, so the App can manage keyPairs.
+
+### 2. SettPay/settpay_sdk
+This is a `SettPay/js_api` wrapper dart package, it contains:
+
+ 1. Keyring. Managing keyPairs.
+ 2. SettPaySDK. Connect to remote node and call `polkadot-js/api` methods.
+ 3. SettPayPlugin. A base plugin class, defined the data and life-circle methods
+ which will be used in the App.
+
+A SettPay plugin can get users' keyPairs in the App from Keyring instance.
+
+A SettPay plugin implementation should extend the `SettPayPlugin` class and
+define it's own data & life-circle methods.
+
+### 3. SettPay/ui
+The common used flutter widgets for `SettPay/settpay`, like:
+ - AddressInputForm
+ - TxConfirmPage
+ - ScanPage
+ - ...
+
+### 4. SettPay/sp_xxx
+Examples:
+ 1. [SettPay/sp_polkadot](https://github.com/SettPay/sp_polkadot)
+
+### 5. App state management
+We use [https://pub.dev/packages/mobx](https://pub.dev/packages/mobx).
+so the directories in a plugin looks like this:
+```
+__ lib
+    |__ pages (the UI)
+    |__ store (the MobX store)
+    |__ service (the Actions fired by UI to mutate the store)
+    |__ ...
+```
+
+### 6. Submit your plugin
+While your plugin was finished and tested, you may submit an issue in this repo.
+We will check into your plugin and add it into the App.
+
+### 7. Plugin update
+Submit a update request issue to update your plugin. There are two different kinds of update:
+ 1. Update the dart package. We will rebuild the App and publish a new release.
+ 2. Update the js code of your plugin (dart code was not affected). We will rebuild the
+  js bundle file and the app will perform a hot-update through polkawallet-api.
+
+
+### Translation
+SettPay has several language programs on a translation projects on [crowdin.com](https://crowdin.com/) at [SettPay](https://crowdin.com/project/settpay)
+
+Language files in the project are written in `json-like` style:
+```dart
+final enAccount = {
+    'key': 'value',
+    'key.another': 'Another value for translation.',
+    'key.multiline': 'Multiline text are \n split with symbol \n.',
+};
+
+/// This 3 strings above will display in the App like:
+// value
+
+// Another value for translation.
+
+// Multiline text are
+// split with symbol
+// .
+```
+You need to keep the `'key'` field on the left as it is, and translate the `'value'`
+field on the right only. Note that the `\n` symbol split a long string into several lines.
+
+Brought to you by Setheum Labs, Setheum Foundation and Slixon Technologies.
