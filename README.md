@@ -1,5 +1,5 @@
 # SETTPAY
-
+* Setheum Wallet
 Setheum's easy to use web3 wallet - [setheum.xyz](https://setheum.xyz)
 SettPay is the main app for Setheum's multi-chain & cross-chain asset management. 
 Stake, take part in network governance, multi-chain transactions all in one. 
@@ -72,10 +72,7 @@ Users can explore the cryptocurrency markets on Setheum's SettPay, the de-facto 
 ### There is much more on Setheum and SettPay.
 CHECKOUT [SETHEUM.XYZ](https://setheum.xyz)
 
-### TODO:
-- [ ] Add documentation links and medium links.
-- [ ] Add proxy account operations.
-- [ ] Support walletConnect.
+Setheum's easy to use multi-chain web3 wallet
 
 ## Getting Started
 
@@ -185,3 +182,9 @@ You need to keep the `'key'` field on the left as it is, and translate the `'val
 field on the right only. Note that the `\n` symbol split a long string into several lines.
 
 Brought to you by Setheum Labs, Setheum Foundation and Slixon Technologies.
+
+### TODO:
+- [ ] Add documentation links and medium links.
+- [ ] Add proxy account operations.
+- [ ] Support walletConnect.
+
