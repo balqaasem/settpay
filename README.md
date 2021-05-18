@@ -6,14 +6,27 @@ Stake, take part in network governance, multi-chain transactions all in one.
 Non-custodial, meaning you hold your private keys not settpay, privacy first! 
 Built into Setheum! The Setheum Blockchain was built to serve SettPay which is to serve the global community.
 
+## Our Motivation
+
+### Our Vision - (a snippet of it's core message)
+
+"The best financial system you can imagine. And as a by-product of that, the best of communities with support for the poor, the hungry, the sick and needy, uplifting the less-priviledged, supporting orphans and refugees especially kids and women.
+We dream to sponsor research & development in medical fields that could potentially cure serious diseases prominent in minority groups globally like the "Sickle Cell" and other serious genetic disorders especially those prominent in kids and communities in under-developed regions of the world like regions in Africa (where I was born & raised).
+This is my dream and Setheum will bear it through the "Setheum Foundation's Setheum Charity Fund" which receives a certain portiuon of network fees and SettMint fees and a designated allocation from the SIF (Setheum Investment Fund) including an Initial allocation from the Initial token allocation. And the Setheum Team vow to allocate a portion of our "Token Sale" raise to the "Setheum Charity Fund" which I run under the "Setheum Foundation" to support humanity as a cause because Setheum is indeed purpose driven. And indeed making the people rich is a side-effect of the good work." 
+                     - Muhammad-Jibril B.A. 
+       (Founder, CEO, CTO | Setheum Labs | Setheum Foundation | 
+    Slixon Technologies | SettPay | Setheum Network | Neom Network)
+
+### Our Mission - (a snippet of it's core message)
+
 "SettPay serves the global community. It doesn't just serve it's initially intended purpose. We needed to invent SettPay, and to do that efficiently and innovatively we needed to invent Setheum. And now we realise the entire world needs SettPay and Setheum is there just and only to serve that purpose. Only to serve "SettPay", the halal market,  and the "Setheum Charity Fund", that's it! Getting rich from it is just a real side-effect, so beware" 
                      - Muhammad-Jibril B.A. 
        (Founder, CEO, CTO | Setheum Labs | Setheum Foundation | 
     Slixon Technologies | SettPay | Setheum Network | Neom Network)
 
-# Our Motivation
+## Introduction
 
-* SettPay is designed to help you unboard the web3 ecosystem fast and easy. On SettPay you get to enjoy these Setheum only perks:
+* SettPay is designed to help you unboard the Setheum and web3 ecosystem fast and easy. On SettPay you get to enjoy these Setheum only perks:
 
 ### Cashdrops: (Just Unique to SettPay & Setheum) 
 
