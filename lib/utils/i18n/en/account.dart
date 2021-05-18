@@ -73,6 +73,6 @@ const Map<String, String> enAccount = {
   'guide.0': 'Safe local storage',
   'guide.1': 'Offline signature',
   'guide.2': 'DOT/KSM Staking & Governance',
-  'guide.3': 'Kusama social recovery',
-  'guide.enter': 'Enter SettPay',
+  'guide.3': 'key social recovery',
+  'guide.enter': 'Proceed to SettPay',
 };

@@ -68,7 +68,7 @@ class _AboutPage extends State<AboutPage> {
             Expanded(
               child: Padding(
                 padding: EdgeInsets.only(top: 16),
-                child: JumpToBrowserLink('https://polkawallet.io'),
+                child: JumpToBrowserLink('https://setheum.xyz'),
               ),
             ),
             Padding(

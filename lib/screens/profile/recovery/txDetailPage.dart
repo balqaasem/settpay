@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:polkawallet_plugin_kusama/polkawallet_plugin_kusama.dart';
-import 'package:polkawallet_plugin_kusama/utils/i18n/index.dart';
+import 'package:sp_polkadot/sp_polkadot.dart';
+import 'package:sp_polkadot/utils/i18n/index.dart';
 import 'package:settpay_sdk/settpay_api/types/txData.dart';
 import 'package:settpay_sdk/storage/keyring.dart';
 import 'package:settpay_sdk/utils/i18n.dart';

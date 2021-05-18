@@ -4,7 +4,6 @@ import 'package:settpay/screens/assets/announcementPage.dart';
 import 'package:settpay/screens/assets/asset/assetPage.dart';
 import 'package:settpay/screens/assets/transfer/transferPage.dart';
 import 'package:settpay/screens/networkSelectPage.dart';
-import 'package:settpay/screens/public/AdBanner.dart';
 import 'package:settpay/service/index.dart';
 import 'package:settpay/service/walletApi.dart';
 import 'package:settpay/utils/i18n/index.dart';
@@ -38,7 +37,7 @@ class AssetsPage extends StatefulWidget {
 
   final AppService service;
   final NetworkParams connectedNode;
-  final Future<void> Function(PolkawalletPlugin) checkJSCodeUpdate;
+  final Future<void> Function(SettPayPlugin) checkJSCodeUpdate;
   final Future<void> Function() changeToKusama;
   final Future<void> Function(String) handleWalletConnect;
 

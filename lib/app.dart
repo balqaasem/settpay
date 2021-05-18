@@ -7,8 +7,6 @@ import 'package:settpay/screens/account/import/importAccountPage.dart';
 import 'package:settpay/screens/assets/asset/assetPage.dart';
 import 'package:settpay/screens/assets/transfer/detailPage.dart';
 import 'package:settpay/screens/assets/transfer/transferPage.dart';
-import 'package:settpay/screens/public/guidePage.dart';
-import 'package:settpay/screens/public/adPage.dart';
 import 'package:settpay/screens/homePage.dart';
 import 'package:settpay/screens/networkSelectPage.dart';
 import 'package:settpay/screens/profile/aboutPage.dart';
@@ -268,18 +266,6 @@ class _WalletAppState extends State<WalletApp> {
     }
   }
 
-  Future<void> _showGuide(BuildContext context, GetStorage storage) async {
-    // todo: remove this after crowd loan
-    final storeKey = '${show_guide_status_key}_$app_beta_version';
-    final showGuideStatus = storage.read(storeKey);
-    if (showGuideStatus == null) {
-      final res = await Navigator.of(context).pushNamed(GuidePage.route);
-      if (res != null) {
-        storage.write(storeKey, true);
-      }
-    }
-  }
-
   Future<int> _startApp(BuildContext context) async {
     if (_keyring == null) {
       _keyring = Keyring();
@@ -386,8 +372,6 @@ class _WalletAppState extends State<WalletApp> {
       WCSessionsPage.route: (_) => WCSessionsPage(_service),
       WalletConnectSignPage.route: (_) =>
           WalletConnectSignPage(_service, _service.account.getPassword),
-      GuidePage.route: (_) => GuidePage(),
-      AdPage.route: (_) => AdPage(),
 
       /// account
       CreateAccountEntryPage.route: (_) => CreateAccountEntryPage(),

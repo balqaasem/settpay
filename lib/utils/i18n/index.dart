@@ -10,12 +10,10 @@ const Map<String, Map<String, Map<String, String>>> i18n_full_dic_app = {
     'account': enAccount,
     'assets': enAssets,
     'profile': enProfile,
-    'public': enPublic,
   },
   'zh': {
     'account': zhAccount,
     'assets': zhAssets,
     'profile': zhProfile,
-    'public': zhPublic,
   }
 };

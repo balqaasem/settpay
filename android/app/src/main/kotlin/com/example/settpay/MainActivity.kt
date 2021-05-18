@@ -1,4 +1,4 @@
-package com.example.settpay
+package xyz.setheum.settpay
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -19,8 +19,8 @@ class HomePage extends StatefulWidget {
 
   final AppService service;
   final NetworkParams connectedNode;
-  final Future<void> Function(BuildContext, PolkawalletPlugin,
-      {bool needReload}) checkJSCodeUpdate;
+  final Future<void> Function(BuildContext, SettPayPlugin, {bool needReload})
+      checkJSCodeUpdate;
   final Future<void> Function() changeToKusama;
 
   static final String route = '/';
@@ -81,8 +81,7 @@ class _HomePageState extends State<HomePage> {
         content: AssetsPage(
             widget.service,
             widget.connectedNode,
-            (PolkawalletPlugin plugin) =>
-                widget.checkJSCodeUpdate(context, plugin),
+            (SettPayPlugin plugin) => widget.checkJSCodeUpdate(context, plugin),
             widget.changeToKusama,
             _handleWalletConnect),
         // content: Container(),

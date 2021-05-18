@@ -20,15 +20,15 @@ class NetworkSelectPage extends StatefulWidget {
   static final String route = '/network';
 
   final AppService service;
-  final List<PolkawalletPlugin> plugins;
-  final Future<void> Function(PolkawalletPlugin) changeNetwork;
+  final List<SettPayPlugin> plugins;
+  final Future<void> Function(SettPayPlugin) changeNetwork;
 
   @override
   _NetworkSelectPageState createState() => _NetworkSelectPageState();
 }
 
 class _NetworkSelectPageState extends State<NetworkSelectPage> {
-  PolkawalletPlugin _selectedNetwork;
+  SettPayPlugin _selectedNetwork;
   bool _networkChanging = false;
 
   Future<void> _reloadNetwork() async {
