@@ -65,6 +65,6 @@ const Map<String, String> zhAccount = {
   'guide.0': '安全的本地存储',
   'guide.1': '支持离线签名',
   'guide.2': '参与 DOT/KSM 质押和治理',
-  'guide.3': '支持 Kusama 社交恢复',
+  'guide.3': '支持 key 社交恢复',
   'guide.enter': '进入 SettPay',
 };

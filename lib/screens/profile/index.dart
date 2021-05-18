@@ -5,7 +5,6 @@ import 'package:settpay/screens/profile/recovery/recoveryProofPage.dart';
 import 'package:settpay/screens/profile/recovery/recoverySettingPage.dart';
 import 'package:settpay/screens/profile/recovery/recoveryStatePage.dart';
 import 'package:settpay/screens/profile/settings/settingsPage.dart';
-import 'package:settpay/screens/public/AdBanner.dart';
 import 'package:settpay/service/index.dart';
 import 'package:settpay/utils/i18n/index.dart';
 import 'package:flutter/cupertino.dart';
