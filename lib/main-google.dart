@@ -1,5 +1,5 @@
-import 'package:app/app.dart';
-import 'package:app/common/consts.dart';
+import 'package:settpay/app.dart';
+import 'package:settpay/common/consts.dart';
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:sp_polkadot/sp_polkadot.dart';
