@@ -26,7 +26,17 @@ This is my dream and Setheum will bear it through the "Setheum Foundation's Seth
 
 ## Introduction
 
-* SettPay is designed to help you unboard the Setheum and web3 ecosystem fast and easy. On SettPay you get to enjoy these Setheum only perks:
+* SettPay is designed to help you unboard the Setheum and web3 ecosystem fast and easy. 
+
+- Friendly UI.
+- Available for both IOS and Android.
+- Intuitive asset management.
+- Offline signature supported.
+- Secure local accounts storage.
+- Simplified staking & network governance.
+- Support for any Substrate-based blockchain network.
+
+On SettPay you get to enjoy the following Setheum only perks:
 
 ### Cashdrops: (Just Unique to SettPay & Setheum) 
 
@@ -62,15 +72,20 @@ Users can explore the cryptocurrency markets on Setheum's SettPay, the de-facto 
 ### There is much more on Setheum and SettPay.
 CHECKOUT [SETHEUM.XYZ](https://setheum.xyz)
 
+### TODO:
+- [ ] Add documentation links and medium links.
+- [ ] Add proxy account operations.
+- [ ] Support walletConnect.
+
 ## Getting Started
 
-This project is a Flutter application.
+Dependencies
+ - Flutter -stable
+ - Dart 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To get started
+ 1. Clone the repo locally, via git clone https://github.com/SettPay/settpay.git `<optional local path>`.
+ 2. Install the dependencies by running `flutter pub get`.
+ 3. In AndroidStudio, run `lib/main.dart` with arguments `--flavor=prod` on Android Devices,
+ or just run `lib/main.dart` with no arguments on IOS.
+ 
