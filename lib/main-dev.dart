@@ -14,5 +14,5 @@ void main() async {
     PluginPolkadot(),
   ];
 
-  runApp(WalletApp(_plugins, BuildTargets.apk));
+  runApp(WalletApp(_plugins, BuildTargets.dev));
 }
