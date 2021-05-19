@@ -275,8 +275,6 @@ class _WalletAppState extends State<WalletApp> {
       final store = AppStore(storage);
       await store.init();
 
-      _showGuide(context, storage);
-
       final pluginIndex = widget.plugins
           .indexWhere((e) => e.basic.name == store.settings.network);
       final service = AppService(
