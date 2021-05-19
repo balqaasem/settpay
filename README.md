@@ -1,6 +1,5 @@
 # SETTPAY
-## SettPay
-### Setheum Wallet
+## SettPay - The Official Setheum Wallet
 * Setheum's easy to use web3 wallet - [setheum.xyz](https://setheum.xyz)
 SettPay is the main app for Setheum's multi-chain & cross-chain asset management. 
 Stake, take part in network governance, multi-chain transactions all in one. 
