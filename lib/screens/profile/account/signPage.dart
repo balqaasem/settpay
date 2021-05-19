@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_sdk/storage/types/keyPairData.dart';
-import 'package:settpay_sdk/settpay_api/types/verifyResult.dart';
+import 'package:settpay_sdk/api/types/verifyResult.dart';
 import 'package:settpay_sdk/webviewWithExtension/types/signExtrinsicParam.dart';
 import 'package:settpay_ui/components/addressFormItem.dart';
 import 'package:settpay_ui/components/addressInputField.dart';

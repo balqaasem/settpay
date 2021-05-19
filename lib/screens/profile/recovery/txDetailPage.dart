@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sp_polkadot/sp_polkadot.dart';
 import 'package:sp_polkadot/utils/i18n/index.dart';
-import 'package:settpay_sdk/settpay_api/types/txData.dart';
+import 'package:settpay_sdk/api/types/txData.dart';
 import 'package:settpay_sdk/storage/keyring.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/components/txDetail.dart';

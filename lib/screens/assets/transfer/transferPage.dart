@@ -11,7 +11,7 @@ import 'package:settpay_ui/components/tapTooltip.dart';
 import 'package:settpay_ui/components/tokenIcon.dart';
 import 'package:settpay_ui/components/txButton.dart';
 import 'package:settpay_ui/screens/scanPage.dart';
-import 'package:settpay_sdk/settpay_api/types/txInfoData.dart';
+import 'package:settpay_sdk/api/types/txInfoData.dart';
 import 'package:settpay_sdk/storage/types/keyPairData.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/utils/format.dart';

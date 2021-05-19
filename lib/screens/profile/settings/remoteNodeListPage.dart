@@ -3,7 +3,7 @@ import 'package:settpay/utils/i18n/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:settpay_sdk/settpay_api/types/networkParams.dart';
+import 'package:settpay_sdk/api/types/networkParams.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 
 class RemoteNodeListPage extends StatelessWidget {

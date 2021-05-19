@@ -1,7 +1,7 @@
 import 'package:mobx/mobx.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:settpay_sdk/settpay_api/types/recoveryInfo.dart';
-import 'package:settpay_sdk/settpay_api/types/walletConnect/pairingData.dart';
+import 'package:settpay_sdk/api/types/recoveryInfo.dart';
+import 'package:settpay_sdk/api/types/walletConnect/pairingData.dart';
 
 part 'account.g.dart';
 

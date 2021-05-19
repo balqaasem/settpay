@@ -11,8 +11,8 @@ import 'package:settpay_ui/components/roundedButton.dart';
 import 'package:settpay_ui/components/txButton.dart';
 import 'package:settpay_ui/screens/txConfirmPage.dart';
 import 'package:settpay_ui/utils/format.dart';
-import 'package:settpay_sdk/settpay_api/types/recoveryInfo.dart';
-import 'package:settpay_sdk/settpay_api/types/txData.dart';
+import 'package:settpay_sdk/api/types/recoveryInfo.dart';
+import 'package:settpay_sdk/api/types/txData.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/utils/i18n.dart';
 

@@ -40,9 +40,9 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_storage/get_storage.dart';
 
-import 'package:settpay_sdk/settpay_api/types/networkParams.dart';
-import 'package:settpay_sdk/settpay_api/types/walletConnect/pairingData.dart';
-import 'package:settpay_sdk/settpay_api/types/walletConnect/payloadData.dart';
+import 'package:settpay_sdk/api/types/networkParams.dart';
+import 'package:settpay_sdk/api/types/walletConnect/pairingData.dart';
+import 'package:settpay_sdk/api/types/walletConnect/payloadData.dart';
 import 'package:settpay_sdk/plugin/index.dart';
 import 'package:settpay_sdk/storage/keyring.dart';
 import 'package:settpay_sdk/utils/i18n.dart';

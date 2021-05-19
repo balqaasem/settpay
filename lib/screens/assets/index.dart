@@ -11,7 +11,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:settpay_sdk/settpay_api/types/networkParams.dart';
+import 'package:settpay_sdk/api/types/networkParams.dart';
 import 'package:settpay_sdk/plugin/index.dart';
 import 'package:settpay_sdk/plugin/store/balances.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
