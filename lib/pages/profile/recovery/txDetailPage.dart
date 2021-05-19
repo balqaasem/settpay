@@ -13,7 +13,7 @@ import 'package:settpay_ui/utils/format.dart';
 class TxDetailPage extends StatelessWidget {
   TxDetailPage(this.plugin, this.keyring);
   static final String route = '/staking/tx';
-  final PluginKusama plugin;
+  final PluginPolkadot plugin;
   final Keyring keyring;
 
   @override
