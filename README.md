@@ -187,4 +187,8 @@ Brought to you by Setheum Labs, Setheum Foundation and Slixon Technologies.
 - [ ] Add documentation links and medium links.
 - [ ] Add proxy account operations.
 - [ ] Support walletConnect.
+- [ ] New UI.
+- [ ] Add NewRone Network plugin.
+- [ ] Add Neom Network plugin.
+- [ ] Add Setheum Network plugin.
 
