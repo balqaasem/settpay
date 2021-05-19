@@ -186,7 +186,7 @@ class _RecoverySettingPage extends State<RecoverySettingPage> {
                 return res;
               }));
             }
-            List<List> activeList = List<List>();
+            List<List> activeList = [];
             _activeRecoveries.asMap().forEach((i, v) {
               // status is null if recovery process was closed
               if (_activeRecoveriesStatus[i] != null) {
