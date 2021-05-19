@@ -6,19 +6,19 @@ import 'package:settpay/service/walletApi.dart';
 import 'package:settpay/utils/i18n/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-// ignore: import_of_legacy_library_into_null_safe
+ 
 import 'package:sp_polkadot/utils/i18n/index.dart';
-// ignore: import_of_legacy_library_into_null_safe
+ 
 import 'package:/settpay_sdk/api/apiKeyring.dart';
-// ignore: import_of_legacy_library_into_null_safe
+ 
 import 'package:settpay_sdk/api/types/recoveryInfo.dart';
-// ignore: import_of_legacy_library_into_null_safe
+ 
 import 'package:settpay_sdk/storage/types/keyPairData.dart';
-// ignore: import_of_legacy_library_into_null_safe
+ 
 import 'package:settpay_sdk/utils/i18n.dart';
-// ignore: import_of_legacy_library_into_null_safe
+ 
 import 'package:biometric_storage/biometric_storage.dart';
-// ignore: import_of_legacy_library_into_null_safe
+ 
 import 'package:settpay_ui/components/passwordInputDialog.dart';
 
 class ApiAccount {

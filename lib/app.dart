@@ -51,7 +51,7 @@ import 'package:settpay_ui/pages/accountQrCodePage.dart';
 import 'package:settpay_ui/pages/qrSenderPage.dart';
 import 'package:settpay_ui/pages/qrSignerPage.dart';
 import 'package:settpay_ui/pages/scanPage.dart';
-// ignore: import_of_legacy_library_into_null_safe
+
 import 'package:settpay_ui/pages/txConfirmPage.dart';
 
 const get_storage_container = 'configuration';
