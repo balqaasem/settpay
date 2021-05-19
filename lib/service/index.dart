@@ -3,7 +3,7 @@ import 'package:settpay/service/apiAccount.dart';
 import 'package:settpay/service/apiAssets.dart';
 import 'package:settpay/store/index.dart';
 
-import 'package:/settpay_sdk/api/subscan.dart';
+import 'package:settpay_sdk/api/subscan.dart';
 
 import 'package:settpay_sdk/storage/keyring.dart';
 
