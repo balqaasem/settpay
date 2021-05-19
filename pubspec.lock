@@ -7,7 +7,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.5.0"
+    version: "2.6.1"
   auth_header:
     dependency: transitive
     description:
@@ -456,8 +456,8 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: master
-      resolved-ref: "5ee8fe3b54380ba39b24946973c728f482bf8822"
+      ref: "v1.0.0"
+      resolved-ref: "9a73057fb4c3a30fc3e5abf17c3938bf301e8421"
       url: "https://github.com/SettPay/settpay-ui.git"
     source: git
     version: "1.0.0"
@@ -514,16 +514,16 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.0"
+    version: "1.8.1"
   sp_polkadot:
     dependency: "direct main"
     description:
       path: "."
-      ref: "v1.0.0"
-      resolved-ref: "571fcb62e97c675f07294827d7712de3430e7897"
+      ref: "v1.0.1"
+      resolved-ref: "1aca815124256c68d148e7e43a2df46bccb5a95d"
       url: "https://github.com/SettPay/sp-polkadot.git"
     source: git
-    version: "1.0.0"
+    version: "1.0.1"
   stack_trace:
     dependency: transitive
     description:
@@ -558,7 +558,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.19"
+    version: "0.3.0"
   typed_data:
     dependency: transitive
     description:
