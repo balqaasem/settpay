@@ -5,19 +5,12 @@ import 'package:settpay/service/index.dart';
 import 'package:settpay/utils/i18n/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
- 
 import 'package:sp_polkadot/utils/i18n/index.dart';
- 
 import 'package:/settpay_sdk/api/apiKeyring.dart';
- 
 import 'package:settpay_sdk/api/types/recoveryInfo.dart';
- 
 import 'package:settpay_sdk/storage/types/keyPairData.dart';
- 
 import 'package:settpay_sdk/utils/i18n.dart';
- 
 import 'package:biometric_storage/biometric_storage.dart';
- 
 import 'package:settpay_ui/components/passwordInputDialog.dart';
 
 class ApiAccount {
@@ -160,7 +153,7 @@ class ApiAccount {
   }
 
   Future<RecoveryInfo> queryRecoverable(String address) async {
-//    address = "J4sW13h2HNerfxTzPGpLT66B3HVvuU32S6upxwSeFJQnAzg";
+    //    address = "J4sW13h2HNerfxTzPGpLT66B3HVvuU32S6upxwSeFJQnAzg";
     final res = await apiRoot.plugin.sdk.api.recovery.queryRecoverable(address);
 
     if (res != null && res.friends.length > 0) {
@@ -179,3 +172,4 @@ class ApiAccount {
       apiRoot.store.account.setBannerVisible(true);
     }
   }
+}
