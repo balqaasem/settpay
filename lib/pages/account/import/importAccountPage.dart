@@ -9,7 +9,7 @@ import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/utils/format.dart';
 import 'package:settpay_ui/utils/i18n.dart';
 
-import 'package:settpay_sdk/settpay_api/apiKeyring.dart';
+import 'package:/settpay_sdk/api/apiKeyring.dart';
 
 class ImportAccountPage extends StatefulWidget {
   const ImportAccountPage(this.service);

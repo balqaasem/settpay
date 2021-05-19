@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'package:settpay_sdk/settpay_api/subscan.dart';
+import 'package:/settpay_sdk/api/subscan.dart';
 import 'package:settpay_sdk/api/types/balanceData.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/components/infoItem.dart';
