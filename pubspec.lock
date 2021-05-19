@@ -451,16 +451,16 @@ packages:
       name: settpay_sdk
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   settpay_ui:
     dependency: transitive
     description:
       path: "."
-      ref: "v1.0.0"
-      resolved-ref: "9a73057fb4c3a30fc3e5abf17c3938bf301e8421"
+      ref: "v1.0.2"
+      resolved-ref: "8203ba4d1488b8b8f59555980b3787607af839d3"
       url: "https://github.com/SettPay/settpay-ui.git"
     source: git
-    version: "1.0.0"
+    version: "1.0.2"
   shared_preferences:
     dependency: transitive
     description:
@@ -519,11 +519,11 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "v1.0.1"
-      resolved-ref: "1aca815124256c68d148e7e43a2df46bccb5a95d"
+      ref: "v1.0.2"
+      resolved-ref: ab39bce5d44b2302c96c4bace6a36f7dd857984c
       url: "https://github.com/SettPay/sp-polkadot.git"
     source: git
-    version: "1.0.1"
+    version: "1.0.2"
   stack_trace:
     dependency: transitive
     description:
