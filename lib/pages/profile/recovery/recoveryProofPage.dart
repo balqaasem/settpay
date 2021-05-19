@@ -26,7 +26,6 @@ class _RecoveryStatePage extends State<RecoveryProofPage> {
       new GlobalKey<RefreshIndicatorState>();
 
   List<TxData> _txs = [];
-  bool _loading = false;
 
   Future<void> _fetchData() async {
     final res = await widget.service.subScan.fetchTxsAsync(

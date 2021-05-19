@@ -2,12 +2,9 @@ import 'package:settpay/common/consts.dart';
 import 'package:settpay/service/apiAccount.dart';
 import 'package:settpay/service/apiAssets.dart';
 import 'package:settpay/store/index.dart';
-
-import 'package:settpay_sdk/api/subscan.dart';
-
-import 'package:settpay_sdk/storage/keyring.dart';
-
+import 'package:settpay_sdk/api/subscan.dart' show SubScanApi;
 import 'package:settpay_sdk/plugin/index.dart';
+import 'package:settpay_sdk/storage/keyring.dart';
 
 class AppService {
   AppService(this.plugin, this.keyring, this.store, this.buildTarget);

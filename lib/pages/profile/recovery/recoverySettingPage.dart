@@ -173,7 +173,7 @@ class _RecoverySettingPage extends State<RecoverySettingPage> {
                 : widget.service.plugin.networkState.tokenDecimals ?? 12;
 
             final info = widget.service.store.account.recoveryInfo;
-            final friends = List<KeyPairData>();
+            final friends = [];
             if (info.friends != null) {
               friends.addAll(info.friends.map((e) {
                 int friendIndex = widget.service.keyring.contacts
@@ -186,7 +186,7 @@ class _RecoverySettingPage extends State<RecoverySettingPage> {
                 return res;
               }));
             }
-            List<List> activeList = List<List>();
+            List<List> activeList = [];
             _activeRecoveries.asMap().forEach((i, v) {
               // status is null if recovery process was closed
               if (_activeRecoveriesStatus[i] != null) {

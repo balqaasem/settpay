@@ -1,15 +1,16 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
 import 'package:settpay/pages/walletConnect/wcPairingConfirmPage.dart';
 import 'package:settpay/service/index.dart';
 import 'package:settpay/utils/i18n/index.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:settpay_sdk/api/types/walletConnect/pairingData.dart';
+import 'package:settpay_sdk/api/types/walletConnect/payloadData.dart';
 import 'package:settpay_sdk/storage/types/keyPairData.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
-import 'package:settpay_sdk/api/types/walletConnect/payloadData.dart';
-import 'package:settpay_sdk/api/types/walletConnect/pairingData.dart';
 import 'package:settpay_ui/components/addressFormItem.dart';
 import 'package:settpay_ui/components/infoItemRow.dart';
 import 'package:settpay_ui/utils/i18n.dart';

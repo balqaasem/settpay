@@ -37,7 +37,6 @@ class _RecoveryStatePage extends State<RecoveryStatePage> {
   List _activeRecoveriesStatus = [];
   List _proxyStatus = [];
   int _currentBlock = 0;
-  bool _loading = false;
 
   Future<void> _fetchData() async {
     Map res = await widget.service.subScan.fetchTxsAsync(
@@ -133,7 +132,7 @@ class _RecoveryStatePage extends State<RecoveryStatePage> {
   Widget build(BuildContext context) {
     final dic = I18n.of(context).getDic(i18n_full_dic_app, 'profile');
 
-    List<List> activeList = List<List>();
+    List<List> activeList = [];
     _txs.asMap().forEach((i, v) {
       bool isRecovered =
           _proxyStatus.indexOf(_recoverableInfoList[i].address) >= 0;
