@@ -155,7 +155,7 @@ We will check into your plugin and add it into the App.
 Submit a update request issue to update your plugin. There are two different kinds of update:
  1. Update the dart package. We will rebuild the App and publish a new release.
  2. Update the js code of your plugin (dart code was not affected). We will rebuild the
-  js bundle file and the app will perform a hot-update through polkawallet-api.
+  js bundle file and the app will perform a hot-update through settpay-api.
 
 
 ### Translation
