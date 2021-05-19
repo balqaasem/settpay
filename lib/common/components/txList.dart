@@ -1,4 +1,4 @@
-import 'package:settpay/screens/profile/recovery/txDetailPage.dart';
+import 'package:settpay/pages/profile/recovery/txDetailPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:settpay_sdk/api/types/txData.dart';
