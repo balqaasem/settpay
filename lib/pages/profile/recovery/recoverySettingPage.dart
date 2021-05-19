@@ -173,7 +173,7 @@ class _RecoverySettingPage extends State<RecoverySettingPage> {
                 : widget.service.plugin.networkState.tokenDecimals ?? 12;
 
             final info = widget.service.store.account.recoveryInfo;
-            final friends = List<KeyPairData>();
+            final friends = [];
             if (info.friends != null) {
               friends.addAll(info.friends.map((e) {
                 int friendIndex = widget.service.keyring.contacts
