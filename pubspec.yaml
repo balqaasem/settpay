@@ -45,7 +45,7 @@ dependency_overrides:
       url: https://github.com/SettPay/settpay-ui.git
       ref: v1.0.2
 #    path: ../../coding/settpay/settpay_ui
-  settpay_sdk: ^1.0.2
+  settpay_sdk: ^1.0.3
 #  settpay_sdk:
 #    path: ../../coding/settpay/settpay_sdk
 
