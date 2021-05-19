@@ -444,12 +444,6 @@ class _AssetsState extends State<AssetsPage> {
                 children: [
                   _buildTopCard(context),
                   Expanded(child: Container()),
-                  widget.service.store.account.showBanner &&
-                          !(widget.service.keyring.current.observation ?? false)
-                      ? AdBanner(widget.service, widget.connectedNode,
-                          widget.changeToKusama,
-                          canClose: true)
-                      : Container(),
                 ],
               )
             ],
