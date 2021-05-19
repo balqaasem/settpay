@@ -1,35 +1,35 @@
 import 'package:settpay/common/components/willPopScopWrapper.dart';
 import 'package:settpay/common/consts.dart';
-import 'package:settpay/screens/account/create/backupAccountPage.dart';
-import 'package:settpay/screens/account/create/createAccountPage.dart';
-import 'package:settpay/screens/account/createAccountEntryPage.dart';
-import 'package:settpay/screens/account/import/importAccountPage.dart';
-import 'package:settpay/screens/assets/asset/assetPage.dart';
-import 'package:settpay/screens/assets/transfer/detailPage.dart';
-import 'package:settpay/screens/assets/transfer/transferPage.dart';
-import 'package:settpay/screens/homePage.dart';
-import 'package:settpay/screens/networkSelectPage.dart';
-import 'package:settpay/screens/profile/aboutPage.dart';
-import 'package:settpay/screens/profile/account/accountManagePage.dart';
-import 'package:settpay/screens/profile/account/changeNamePage.dart';
-import 'package:settpay/screens/profile/account/changePasswordPage.dart';
-import 'package:settpay/screens/profile/account/exportAccountPage.dart';
-import 'package:settpay/screens/profile/account/exportResultPage.dart';
-import 'package:settpay/screens/profile/contacts/contactPage.dart';
-import 'package:settpay/screens/profile/contacts/contactsPage.dart';
-import 'package:settpay/screens/profile/recovery/createRecoveryPage.dart';
-import 'package:settpay/screens/profile/recovery/friendListPage.dart';
-import 'package:settpay/screens/profile/recovery/initiateRecoveryPage.dart';
-import 'package:settpay/screens/profile/recovery/recoveryProofPage.dart';
-import 'package:settpay/screens/profile/recovery/recoverySettingPage.dart';
-import 'package:settpay/screens/profile/recovery/recoveryStatePage.dart';
-import 'package:settpay/screens/profile/recovery/vouchRecoveryPage.dart';
-import 'package:settpay/screens/profile/settings/remoteNodeListPage.dart';
-import 'package:settpay/screens/profile/settings/settingsPage.dart';
-import 'package:settpay/screens/profile/account/signPage.dart';
-import 'package:settpay/screens/walletConnect/walletConnectSignPage.dart';
-import 'package:settpay/screens/walletConnect/wcPairingConfirmPage.dart';
-import 'package:settpay/screens/walletConnect/wcSessionsPage.dart';
+import 'package:settpay/pages/account/create/backupAccountPage.dart';
+import 'package:settpay/pages/account/create/createAccountPage.dart';
+import 'package:settpay/pages/account/createAccountEntryPage.dart';
+import 'package:settpay/pages/account/import/importAccountPage.dart';
+import 'package:settpay/pages/assets/asset/assetPage.dart';
+import 'package:settpay/pages/assets/transfer/detailPage.dart';
+import 'package:settpay/pages/assets/transfer/transferPage.dart';
+import 'package:settpay/pages/homePage.dart';
+import 'package:settpay/pages/networkSelectPage.dart';
+import 'package:settpay/pages/profile/aboutPage.dart';
+import 'package:settpay/pages/profile/account/accountManagePage.dart';
+import 'package:settpay/pages/profile/account/changeNamePage.dart';
+import 'package:settpay/pages/profile/account/changePasswordPage.dart';
+import 'package:settpay/pages/profile/account/exportAccountPage.dart';
+import 'package:settpay/pages/profile/account/exportResultPage.dart';
+import 'package:settpay/pages/profile/contacts/contactPage.dart';
+import 'package:settpay/pages/profile/contacts/contactsPage.dart';
+import 'package:settpay/pages/profile/recovery/createRecoveryPage.dart';
+import 'package:settpay/pages/profile/recovery/friendListPage.dart';
+import 'package:settpay/pages/profile/recovery/initiateRecoveryPage.dart';
+import 'package:settpay/pages/profile/recovery/recoveryProofPage.dart';
+import 'package:settpay/pages/profile/recovery/recoverySettingPage.dart';
+import 'package:settpay/pages/profile/recovery/recoveryStatePage.dart';
+import 'package:settpay/pages/profile/recovery/vouchRecoveryPage.dart';
+import 'package:settpay/pages/profile/settings/remoteNodeListPage.dart';
+import 'package:settpay/pages/profile/settings/settingsPage.dart';
+import 'package:settpay/pages/profile/account/signPage.dart';
+import 'package:settpay/pages/walletConnect/walletConnectSignPage.dart';
+import 'package:settpay/pages/walletConnect/wcPairingConfirmPage.dart';
+import 'package:settpay/pages/walletConnect/wcSessionsPage.dart';
 import 'package:settpay/service/index.dart';
 import 'package:settpay/service/walletApi.dart';
 import 'package:settpay/store/index.dart';
@@ -40,19 +40,19 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_storage/get_storage.dart';
 
-import 'package:settpay_sdk/settpay_api/types/networkParams.dart';
-import 'package:settpay_sdk/settpay_api/types/walletConnect/pairingData.dart';
-import 'package:settpay_sdk/settpay_api/types/walletConnect/payloadData.dart';
+import 'package:settpay_sdk/api/types/networkParams.dart';
+import 'package:settpay_sdk/api/types/walletConnect/pairingData.dart';
+import 'package:settpay_sdk/api/types/walletConnect/payloadData.dart';
 import 'package:settpay_sdk/plugin/index.dart';
 import 'package:settpay_sdk/storage/keyring.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
-import 'package:settpay_ui/screens/accountListPage.dart';
-import 'package:settpay_ui/screens/accountQrCodePage.dart';
-import 'package:settpay_ui/screens/qrSenderPage.dart';
-import 'package:settpay_ui/screens/qrSignerPage.dart';
-import 'package:settpay_ui/screens/scanPage.dart';
-// ignore: import_of_legacy_library_into_null_safe
-import 'package:settpay_ui/screens/txConfirmPage.dart';
+import 'package:settpay_ui/pages/accountListPage.dart';
+import 'package:settpay_ui/pages/accountQrCodePage.dart';
+import 'package:settpay_ui/pages/qrSenderPage.dart';
+import 'package:settpay_ui/pages/qrSignerPage.dart';
+import 'package:settpay_ui/pages/scanPage.dart';
+
+import 'package:settpay_ui/pages/txConfirmPage.dart';
 
 const get_storage_container = 'configuration';
 
@@ -274,8 +274,6 @@ class _WalletAppState extends State<WalletApp> {
       final storage = GetStorage(get_storage_container);
       final store = AppStore(storage);
       await store.init();
-
-      _showGuide(context, storage);
 
       final pluginIndex = widget.plugins
           .indexWhere((e) => e.basic.name == store.settings.network);

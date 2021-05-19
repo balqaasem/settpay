@@ -3,11 +3,10 @@ import 'package:settpay/service/apiAccount.dart';
 import 'package:settpay/service/apiAssets.dart';
 import 'package:settpay/store/index.dart';
 
-// ignore: import_of_legacy_library_into_null_safe
-import 'package:settpay_sdk/settpay_api/subscan.dart';
-// ignore: import_of_legacy_library_into_null_safe
+import 'package:/settpay_sdk/api/subscan.dart';
+
 import 'package:settpay_sdk/storage/keyring.dart';
-// ignore: import_of_legacy_library_into_null_safe
+
 import 'package:settpay_sdk/plugin/index.dart';
 
 class AppService {

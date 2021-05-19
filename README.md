@@ -1,6 +1,7 @@
 # SETTPAY
-* Setheum Wallet
-Setheum's easy to use web3 wallet - [setheum.xyz](https://setheum.xyz)
+## SettPay
+### Setheum Wallet
+* Setheum's easy to use web3 wallet - [setheum.xyz](https://setheum.xyz)
 SettPay is the main app for Setheum's multi-chain & cross-chain asset management. 
 Stake, take part in network governance, multi-chain transactions all in one. 
 Non-custodial, meaning you hold your private keys not settpay, privacy first! 
@@ -155,7 +156,7 @@ We will check into your plugin and add it into the App.
 Submit a update request issue to update your plugin. There are two different kinds of update:
  1. Update the dart package. We will rebuild the App and publish a new release.
  2. Update the js code of your plugin (dart code was not affected). We will rebuild the
-  js bundle file and the app will perform a hot-update through polkawallet-api.
+  js bundle file and the app will perform a hot-update through settpay-api.
 
 
 ### Translation
@@ -187,4 +188,8 @@ Brought to you by Setheum Labs, Setheum Foundation and Slixon Technologies.
 - [ ] Add documentation links and medium links.
 - [ ] Add proxy account operations.
 - [ ] Support walletConnect.
+- [ ] New UI.
+- [ ] Add NewRone Network plugin.
+- [ ] Add Neom Network plugin.
+- [ ] Add Setheum Network plugin.
 

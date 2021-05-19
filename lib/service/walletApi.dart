@@ -1,8 +1,7 @@
 import 'dart:convert';
 
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:get_storage/get_storage.dart';
-// ignore: import_of_legacy_library_into_null_safe
+
 import 'package:http/http.dart';
 
 class WalletApi {
