@@ -98,10 +98,6 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
             ),
           ),
-          !(acc.observation ?? false)
-              ? AdBanner(
-                  widget.service, widget.connectedNode, widget.changeToKusama)
-              : Container(),
           Container(
             padding: EdgeInsets.all(24),
             child: Row(
