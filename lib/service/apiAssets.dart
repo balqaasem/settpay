@@ -1,5 +1,5 @@
 import 'package:settpay/service/index.dart';
-import 'package:settpay/service/walletApi.dart';
+import 'walletApi.dart';
 
 class ApiAssets {
   ApiAssets(this.apiRoot);
