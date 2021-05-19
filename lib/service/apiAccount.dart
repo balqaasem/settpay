@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:settpay/common/consts.dart';
 import 'package:settpay/service/index.dart';
-import 'package:settpay/service/walletApi.dart';
 import 'package:settpay/utils/i18n/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
