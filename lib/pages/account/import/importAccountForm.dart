@@ -7,7 +7,7 @@ import 'package:biometric_storage/biometric_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:/settpay_sdk/api/apiKeyring.dart';
+import 'package:settpay_sdk/api/apiKeyring.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/components/roundedButton.dart';
 import 'package:settpay_ui/utils/i18n.dart';
