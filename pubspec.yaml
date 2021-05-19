@@ -87,7 +87,6 @@ flutter:
     - assets/images/logo_about.png
     - assets/images/nav_assets.svg
     - assets/images/nav_profile.svg
-    - assets/images/pageshot.png
     - assets/images/scan.svg
     - assets/images/assets_up.svg
     - assets/images/assets_down.svg
