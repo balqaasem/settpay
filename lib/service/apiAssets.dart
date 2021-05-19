@@ -1,4 +1,4 @@
-import 'package:settpay/service/index.dart';
+import 'package:settpay/service/index.dart' show AppService;
 import 'walletApi.dart';
 
 class ApiAssets {
