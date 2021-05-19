@@ -1,7 +1,8 @@
-import 'package:settpay/service/index.dart';
-import 'package:settpay/utils/i18n/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'package:settpay/service/index.dart';
+import 'package:settpay/utils/i18n/index.dart';
 import 'package:settpay_sdk/storage/types/keyPairData.dart';
 import 'package:settpay_sdk/utils/i18n.dart';
 import 'package:settpay_ui/components/roundedButton.dart';
