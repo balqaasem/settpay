@@ -654,7 +654,7 @@ packages:
       name: settpay_sdk
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.3"
   settpay_ui:
     dependency: "direct overridden"
     description:
