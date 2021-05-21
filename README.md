@@ -188,7 +188,10 @@ Brought to you by Setheum Labs, Setheum Foundation and Slixon Technologies.
 - [ ] Add proxy account operations.
 - [ ] Support walletConnect.
 - [ ] New UI.
-- [ ] Add NewRone Network plugin.
-- [ ] Add Neom Network plugin.
-- [ ] Add Setheum Network plugin.
+- [ ] Add NewRome Network plugin.
+- [ ] Add Neom Network plugin (Setheum's Canary Network - `sp-setheum`).
+- [ ] Add Setheum Network plugin (Setheum's Main Network - `sp-setheum`).
+- [ ] Add Ethereum Network plugin.
+- [ ] Add BSC plugin (Binance Smart Chain - `sp-bsc`).
+- [ ] Add Binance Chainplugin.
 
